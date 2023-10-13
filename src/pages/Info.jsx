@@ -35,7 +35,7 @@ const Info = () => {
           <Link to="/">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              // Show the modal on utton click
+           
             >
               Cancel
             </button>
@@ -49,7 +49,7 @@ const Info = () => {
             <h2 className="text-2xl font-bold">{product.title}</h2>
             <p className="text-gray-600">{product.description}</p>
             <p className="text-xl font-bold mt-4">${product.price}</p>
-            {/* Add the "Add to Cart" button here */}
+       
           </div>
         </div>
       </div>

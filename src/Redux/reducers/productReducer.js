@@ -12,13 +12,13 @@ const productReducer = (state = initialState, action) => {
         products: action.payload,
       };
     case ADD_PRODUCT:
-      // Implement logic to add a product
+     
       return {
         ...state,
         products: [...state.products, action.payload],
       };
     case DELETE_PRODUCT:
-      // Implement logic to delete a product
+    
       return {
         ...state,
         products: state.products.filter(product => product.id !== action.payload),
